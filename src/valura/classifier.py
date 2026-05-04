@@ -264,3 +264,5 @@ async def classify_intent(query: str, history: list[ChatMessage]) -> Classificat
     except Exception as exc:  # noqa: BLE001
         logger.warning("classifier llm failed: %s", exc)
         return heuristic_classify(query, history)
+
+# Intent classification logic
