@@ -158,3 +158,4 @@ def evaluate_safety(user_query: str) -> SafetyOutcome:
         if rx.search(q):
             return SafetyBlock(category=cat, message=_MESSAGES[cat])
     return SafetyPass()
+# Safety guard logic implemented
