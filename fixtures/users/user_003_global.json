@@ -1,0 +1,12 @@
+{
+  "user_id": "user_003_global",
+  "kyc_status": "verified",
+  "risk_profile": "balanced",
+  "base_currency": "EUR",
+  "holdings": [
+    {"ticker": "ASML.AS", "weight_pct": 25.0, "currency": "EUR"},
+    {"ticker": "SAP.DE", "weight_pct": 20.0, "currency": "EUR"},
+    {"ticker": "7203.T", "weight_pct": 15.0, "currency": "JPY"},
+    {"ticker": "VTI", "weight_pct": 40.0, "currency": "USD"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "conv_health_then_amount",
+  "turns": [
+    {"role": "user", "content": "Give me a portfolio health check."},
+    {"role": "assistant", "content": "Here is a high-level view of concentration and performance..."}
+  ],
+  "follow_up_query": "If I add $5,000 to VTI what happens to my tech exposure?",
+  "notes": "Follow-up ties to portfolio + hypothetical amount"
+}

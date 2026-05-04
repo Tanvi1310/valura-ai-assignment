@@ -1,0 +1,816 @@
+[
+  {
+    "id": "ic_001",
+    "query": "How is my portfolio doing?",
+    "expected_agent": "portfolio_health",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_002",
+    "query": "Give me a quick health check on my holdings.",
+    "expected_agent": "portfolio_health",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_003",
+    "query": "Am I diversified enough?",
+    "expected_agent": "portfolio_health",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [
+        "diversification"
+      ],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_004",
+    "query": "What is my concentration risk?",
+    "expected_agent": "portfolio_health",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [
+        "concentration"
+      ],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_005",
+    "query": "Compare my returns to the S and P 500",
+    "expected_agent": "portfolio_health",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [
+        "benchmark"
+      ],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_006",
+    "query": "What was Apple revenue last quarter?",
+    "expected_agent": "market_research",
+    "expected_entities": {
+      "tickers": [
+        "AAPL"
+      ],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_007",
+    "query": "Tell me about NVDA fundamentals",
+    "expected_agent": "market_research",
+    "expected_entities": {
+      "tickers": [
+        "NVDA"
+      ],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_008",
+    "query": "How did semiconductors perform YTD?",
+    "expected_agent": "market_research",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [
+        "semiconductors"
+      ],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_009",
+    "query": "What is the latest news on Tesla?",
+    "expected_agent": "market_research",
+    "expected_entities": {
+      "tickers": [
+        "TSLA"
+      ],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_010",
+    "query": "Chart MSFT vs GOOGL",
+    "expected_agent": "market_research",
+    "expected_entities": {
+      "tickers": [
+        "MSFT",
+        "GOOGL"
+      ],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_011",
+    "query": "I want a long term plan for retirement in 20 years",
+    "expected_agent": "investment_strategy",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": 20.0
+    }
+  },
+  {
+    "id": "ic_012",
+    "query": "Should I tilt more to value or growth?",
+    "expected_agent": "investment_strategy",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_013",
+    "query": "How do I build a 60/40 portfolio?",
+    "expected_agent": "investment_strategy",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_014",
+    "query": "What allocation fits a moderate risk profile?",
+    "expected_agent": "investment_strategy",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_015",
+    "query": "Compound 10000 at 7 percent for 10 years",
+    "expected_agent": "financial_calculator",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": 10000,
+      "rate": 0.07,
+      "period_years": 10.0
+    }
+  },
+  {
+    "id": "ic_016",
+    "query": "If I invest 2500 monthly at 6 percent how much in 15 years",
+    "expected_agent": "financial_calculator",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": 2500,
+      "rate": 0.06,
+      "period_years": 15.0
+    }
+  },
+  {
+    "id": "ic_017",
+    "query": "What is the future value of 50000 over 5 years at 4 percent",
+    "expected_agent": "financial_calculator",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": 50000,
+      "rate": 0.04,
+      "period_years": 5.0
+    }
+  },
+  {
+    "id": "ic_018",
+    "query": "Convert APR to monthly rate for this loan",
+    "expected_agent": "financial_calculator",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": 0.05,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_019",
+    "query": "Help me understand wash sale rules",
+    "expected_agent": "risk_compliance",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_020",
+    "query": "What disclosures apply if I trade options?",
+    "expected_agent": "risk_compliance",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_021",
+    "query": "Is this dividend eligible for qualified treatment?",
+    "expected_agent": "risk_compliance",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_022",
+    "query": "I cannot log in to my account",
+    "expected_agent": "customer_support",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_023",
+    "query": "Where do I find tax documents?",
+    "expected_agent": "customer_support",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_024",
+    "query": "Reset my two factor authentication",
+    "expected_agent": "customer_support",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_025",
+    "query": "Forecast next quarter revenue for ASML",
+    "expected_agent": "predictive_analysis",
+    "expected_entities": {
+      "tickers": [
+        "ASML"
+      ],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_026",
+    "query": "What scenarios could crash tech stocks?",
+    "expected_agent": "predictive_analysis",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_027",
+    "query": "Estimate downside if rates rise 100bps",
+    "expected_agent": "predictive_analysis",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_028",
+    "query": "Suggest three stocks to buy tomorrow",
+    "expected_agent": "recommendation_engine",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_029",
+    "query": "What should I buy with 10000 dollars",
+    "expected_agent": "recommendation_engine",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": 10000,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_030",
+    "query": "Recommend ETFs for a beginner",
+    "expected_agent": "recommendation_engine",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_031",
+    "query": "Deep dive on Amazon AWS margins",
+    "expected_agent": "market_research",
+    "expected_entities": {
+      "tickers": [
+        "AMZN"
+      ],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_032",
+    "query": "Explain eurozone CPI trend",
+    "expected_agent": "market_research",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [
+        "inflation"
+      ],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_033",
+    "query": "Bond ladder vs bullet for retirees",
+    "expected_agent": "investment_strategy",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_034",
+    "query": "Monte carlo retirement success rate",
+    "expected_agent": "financial_calculator",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_035",
+    "query": "Are my trades reported to regulators correctly?",
+    "expected_agent": "risk_compliance",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_036",
+    "query": "App crashed during order placement",
+    "expected_agent": "customer_support",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_037",
+    "query": "Monte carlo equity paths next year",
+    "expected_agent": "predictive_analysis",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_038",
+    "query": "Best dividend stocks for passive income",
+    "expected_agent": "recommendation_engine",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_039",
+    "query": "How liquid is my portfolio?",
+    "expected_agent": "portfolio_health",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [
+        "liquidity"
+      ],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_040",
+    "query": "Show tracking error vs benchmark",
+    "expected_agent": "portfolio_health",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [
+        "tracking error"
+      ],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_041",
+    "query": "EU stocks outlook",
+    "expected_agent": "market_research",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [
+        "europe"
+      ],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_042",
+    "query": "Tax loss harvesting strategy basics",
+    "expected_agent": "investment_strategy",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_043",
+    "query": "IRR on my cash flows",
+    "expected_agent": "financial_calculator",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_044",
+    "query": "Pattern day trader rules",
+    "expected_agent": "risk_compliance",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_045",
+    "query": "Change my mailing address",
+    "expected_agent": "customer_support",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_046",
+    "query": "Stress test my portfolio",
+    "expected_agent": "predictive_analysis",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_047",
+    "query": "Robo advisor vs self directed",
+    "expected_agent": "recommendation_engine",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_048",
+    "query": "Is everything OK with my investments?",
+    "expected_agent": "portfolio_health",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_049",
+    "query": "Performance attribution by sector",
+    "expected_agent": "portfolio_health",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_050",
+    "query": "Oil sector macro drivers",
+    "expected_agent": "market_research",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [
+        "energy"
+      ],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_051",
+    "query": "Rebalance quarterly or yearly?",
+    "expected_agent": "investment_strategy",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_052",
+    "query": "Loan amortization payment amount on 200k at 6.5 percent for 30 years",
+    "expected_agent": "financial_calculator",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": 200000,
+      "rate": 0.065,
+      "period_years": 30.0
+    }
+  },
+  {
+    "id": "ic_053",
+    "query": "Insider reporting obligations",
+    "expected_agent": "risk_compliance",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_054",
+    "query": "Wire transfer status",
+    "expected_agent": "customer_support",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_055",
+    "query": "Scenario analysis recession",
+    "expected_agent": "predictive_analysis",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_056",
+    "query": "Best funds for ESG",
+    "expected_agent": "recommendation_engine",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_057",
+    "query": "How risky is my portfolio overall?",
+    "expected_agent": "portfolio_health",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_058",
+    "query": "Compare ASML US vs Amsterdam listing",
+    "expected_agent": "market_research",
+    "expected_entities": {
+      "tickers": [
+        "ASML",
+        "ASML.AS"
+      ],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_059",
+    "query": "Goal based investing vs stock picking",
+    "expected_agent": "investment_strategy",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": null,
+      "rate": null,
+      "period_years": null
+    }
+  },
+  {
+    "id": "ic_060",
+    "query": "Present value of annuity",
+    "expected_agent": "financial_calculator",
+    "expected_entities": {
+      "tickers": [],
+      "topics": [],
+      "sectors": [],
+      "amount": 1000,
+      "rate": 0.05,
+      "period_years": 10.0
+    }
+  }
+]

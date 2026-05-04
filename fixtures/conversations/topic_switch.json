@@ -1,0 +1,9 @@
+{
+  "id": "conv_topic_switch",
+  "turns": [
+    {"role": "user", "content": "How is the S&P 500 doing this week?"},
+    {"role": "assistant", "content": "The S&P 500 index has moved based on recent macro data..."}
+  ],
+  "follow_up_query": "Actually, can you check how diversified my portfolio is?",
+  "notes": "Switch from market_research to portfolio_health"
+}

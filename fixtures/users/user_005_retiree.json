@@ -1,0 +1,12 @@
+{
+  "user_id": "user_005_retiree",
+  "kyc_status": "verified",
+  "risk_profile": "income",
+  "base_currency": "USD",
+  "holdings": [
+    {"ticker": "VYM", "weight_pct": 30.0, "currency": "USD"},
+    {"ticker": "JNJ", "weight_pct": 25.0, "currency": "USD"},
+    {"ticker": "PG", "weight_pct": 25.0, "currency": "USD"},
+    {"ticker": "BND", "weight_pct": 20.0, "currency": "USD"}
+  ]
+}

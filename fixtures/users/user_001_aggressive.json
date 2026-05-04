@@ -1,0 +1,11 @@
+{
+  "user_id": "user_001_aggressive",
+  "kyc_status": "verified",
+  "risk_profile": "aggressive",
+  "base_currency": "USD",
+  "holdings": [
+    {"ticker": "TSLA", "weight_pct": 45.0, "currency": "USD"},
+    {"ticker": "NVDA", "weight_pct": 35.0, "currency": "USD"},
+    {"ticker": "MSTR", "weight_pct": 20.0, "currency": "USD"}
+  ]
+}

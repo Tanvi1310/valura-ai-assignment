@@ -1,0 +1,9 @@
+{
+  "id": "conv_followup_ticker",
+  "turns": [
+    {"role": "user", "content": "Give me an overview of Microsoft stock."},
+    {"role": "assistant", "content": "Microsoft (MSFT) is a large-cap technology company..."}
+  ],
+  "follow_up_query": "What about Apple compared to that?",
+  "notes": "Classifier should resolve Apple + compare to prior MSFT context"
+}
