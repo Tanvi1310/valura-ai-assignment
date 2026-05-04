@@ -167,7 +167,7 @@ All tests run without needing an API key (LLM is mocked).
 
 ## Demo Video
 
-(Add your video link here)
+https://drive.google.com/file/d/1LsG16nx-VVxtyHE9EFtt5T-OvMc0k41z/view?usp=sharing
 
 ---
 
